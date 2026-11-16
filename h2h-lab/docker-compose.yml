@@ -1,0 +1,15 @@
+services:
+  tomcat:
+    image: tomcat:10.1-jdk17
+    volumes:
+      - ./webapp:/usr/local/tomcat/webapps/ROOT:ro,Z
+    expose:
+      - "8080"
+  edge:
+    image: nginx:1.27
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro,Z
+    ports:
+      - "127.0.0.1:8080:80"
+    depends_on:
+      - tomcat

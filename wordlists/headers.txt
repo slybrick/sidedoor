@@ -1,0 +1,21 @@
+# IP-spoof / trust headers. Each is tried with 127.0.0.1 and the --ip value.
+X-Forwarded-For
+X-Forwarded-Host
+X-Forwarded-Server
+X-Forwarded-Scheme
+X-Real-IP
+X-Originating-IP
+X-Remote-IP
+X-Remote-Addr
+X-Client-IP
+X-Host
+X-Custom-IP-Authorization
+X-Original-Remote-Addr
+Client-IP
+True-Client-IP
+Cluster-Client-IP
+CF-Connecting-IP
+X-ProxyUser-Ip
+X-True-IP
+Forwarded-For
+X-Forwarded

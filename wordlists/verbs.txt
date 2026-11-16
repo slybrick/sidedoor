@@ -1,0 +1,16 @@
+# HTTP methods for verb tampering (incl. WebDAV + one invented verb).
+GET
+POST
+HEAD
+OPTIONS
+PUT
+PATCH
+DELETE
+TRACE
+PROPFIND
+MKCOL
+COPY
+MOVE
+LOCK
+SEARCH
+SLYBRICK

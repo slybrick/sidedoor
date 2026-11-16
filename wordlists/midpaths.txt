@@ -1,0 +1,11 @@
+# Inserted before the last path segment (e.g. /admin -> /..;/admin).
+..;/
+;/
+.;/
+%2e
+%2e%2e
+%252e
+..%2f
+%ef%bc%8f
+%c0%ae%c0%ae
+;

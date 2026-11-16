@@ -1,0 +1,26 @@
+# Appended to the end of the path. Curated to survive standard URL parsing.
+/
+//
+..;/
+;/
+%2e
+%2f
+%09
+%20
+%00
+.json
+.html
+.css
+.php
+?
+??
+/?x=1
+%23
+*
+~
+..%2f
+%252e
+%252f
+%ef%bc%8f
+%c0%ae
+%25%32%65
